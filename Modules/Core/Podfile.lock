@@ -1,0 +1,22 @@
+PODS:
+  - Core (0.1):
+    - Util
+  - Util (0.1)
+
+DEPENDENCIES:
+  - Core (from `.`)
+  - Util (from `../Util`)
+
+EXTERNAL SOURCES:
+  Core:
+    :path: "."
+  Util:
+    :path: "../Util"
+
+SPEC CHECKSUMS:
+  Core: 367ece5ed377a87a8369fdc622b47bd311fb03a2
+  Util: 833238ef2ae3d63bd12315d7e1170f8e67e837c4
+
+PODFILE CHECKSUM: cf48c8aa2591d2a7b184f567c1a985bf50830642
+
+COCOAPODS: 1.11.2

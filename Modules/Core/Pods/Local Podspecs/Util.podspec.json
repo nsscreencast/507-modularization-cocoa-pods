@@ -1,0 +1,20 @@
+{
+  "name": "Util",
+  "summary": "Utilities",
+  "version": "0.1",
+  "authors": {
+    "team": "team@company.com"
+  },
+  "license": "private",
+  "source": {
+    "git": "https://example.com/util.git"
+  },
+  "homepage": "https://example.com/util",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": [
+    "FeatureModule.swift",
+    "Sources/**/*.swift"
+  ]
+}

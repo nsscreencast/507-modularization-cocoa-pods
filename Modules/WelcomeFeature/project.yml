@@ -1,0 +1,21 @@
+name: WelcomeFeature
+options:
+  bundleIdPrefix: com.ficklebits.dinnertime
+packages:
+  WelcomeFeature:
+    path: .
+targets:
+  ExampleApp:
+    type: application
+    platform: iOS
+    deploymentTarget: '14.0'
+    sources:
+    - path: ExampleApp
+      excludes:
+        - Package.swift
+    info:
+      path: ExampleApp/Info.plist
+      properties:
+        UILaunchStoryboardName:
+    dependencies:
+      - package: WelcomeFeature

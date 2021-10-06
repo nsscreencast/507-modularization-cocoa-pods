@@ -1,0 +1,12 @@
+platform :ios, '14.0'
+
+abstract_target 'Core' do
+  use_frameworks!
+
+  pod 'Core', path: '.'
+  pod 'Util', path: '../Util'
+
+  target 'Example'
+  target 'Tests'
+end
+

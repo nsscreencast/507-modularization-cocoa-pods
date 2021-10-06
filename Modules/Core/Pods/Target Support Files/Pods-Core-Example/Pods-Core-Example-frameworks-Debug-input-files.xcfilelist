@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Core-Example/Pods-Core-Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Core/Core.framework
+${BUILT_PRODUCTS_DIR}/Util/Util.framework

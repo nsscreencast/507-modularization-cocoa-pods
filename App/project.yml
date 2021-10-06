@@ -1,0 +1,37 @@
+name: DinnerTime
+options:
+  bundleIdPrefix: com.ficklebits.dinnertime
+packages:
+  Util:
+    path: "../Modules/Util"
+  Core:
+    path: "../Modules/Core"
+  Store:
+    path: "../Modules/Store"
+  WelcomeFeature:
+    path: "../Modules/WelcomeFeature"
+targets:
+  App:
+    type: application
+    platform: "iOS"
+    deploymentTarget: "14.0"
+    sources: [Source]
+    dependencies:
+      - package: Util
+      - package: Core
+      - package: Store
+      - package: WelcomeFeature
+    scheme:
+      testTargets:
+        - Tests
+    info:
+      path: "Source/Info.plist"
+      properties:
+        UILaunchStoryboardName: 
+
+  Tests:
+    type: bundle.unit-test
+    platform: "iOS"
+    deploymentTarget: "14.0"
+    sources: [Tests]
+

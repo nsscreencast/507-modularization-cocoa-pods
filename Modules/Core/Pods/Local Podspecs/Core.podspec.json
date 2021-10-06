@@ -1,0 +1,25 @@
+{
+  "name": "Core",
+  "summary": "Core models and stuff",
+  "version": "0.1",
+  "authors": {
+    "team": "team@company.com"
+  },
+  "license": "private",
+  "source": {
+    "git": "https://example.com/core.git"
+  },
+  "homepage": "https://example.com/core",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": [
+    "FeatureModule.swift",
+    "Sources/**/*.swift"
+  ],
+  "dependencies": {
+    "Util": [
+
+    ]
+  }
+}
